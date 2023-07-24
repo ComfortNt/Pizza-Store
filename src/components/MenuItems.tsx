@@ -1,13 +1,13 @@
-
+import '../css/Menu.css'
 
 const MenuItems = (props:any) => {
   return (
 
-    <div className="menuItems">
+    <div className="menuItem">
 
         <div style={{ backgroundImage: `url(${props.image})`}}></div>
         <h1>{props.name}</h1>
-        <p>{props.price}</p>
+        <p>R {props.price}</p>
       
     </div>
   )

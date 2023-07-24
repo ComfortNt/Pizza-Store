@@ -33,7 +33,7 @@ export const menuList = [
 
     },
     {
-        name  :"vegan",
+        name  :"vegan za za",
         price : 59.99,
         image : five
 

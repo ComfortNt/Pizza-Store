@@ -1,11 +1,11 @@
 import { menuList } from "../MenuList"
 import MenuItems from "../components/MenuItems"
+import '../css/Menu.css'
 
 const Menu = () => {
   return (
     <div className="menu">
-
-
+        
         <h1 className="menuTitle"> We Offer:</h1>
 
         <div className="menuItems">
